@@ -7,8 +7,7 @@ def tratamento(num):
     tratados = [ft,fb]
     return tratados
 
-with open("test.data","r") as test:
-    arquivoTeste = test.readlines()
+arquivoTeste = pd.DataFrame([linhas.strip().split() for linhas in open("./test.data").readlines()])
 
-arquivoTeste = pd.DataFrame(arquivoTeste)
+
 print(arquivoTeste)
