@@ -1,1 +1,1 @@
-trabalhopara ler o arquivo e fazer umas coisas
+trabalho para ler o arquivo e fazer umas coisas
