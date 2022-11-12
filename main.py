@@ -48,4 +48,4 @@ outFile = pd.DataFrame(outputFile[1:].values,columns=outputFile.iloc[0].values)
 linhas_erradas = comparar(testFile,outFile) #funçao definida no começo do programa.
 
 if linhas_erradas==[]:print("Programa sem erros")
-else:print("Os valores foram errados para as linhas: ",int(", ".join(linhas_erradas)))
+else:print("Os valores foram errados para as linhas: ",", ".join(linhas_erradas))
